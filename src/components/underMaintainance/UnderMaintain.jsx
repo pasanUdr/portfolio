@@ -54,7 +54,7 @@ const UnderMaintain = () => {
           </div>
 
           <div>
-            <p className="text-2xl italic">Available in:</p>
+            <p className="text-2xl italic">Available before:</p>
           </div>
           <div>
               <Countdown />
