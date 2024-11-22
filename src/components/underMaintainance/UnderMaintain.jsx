@@ -10,7 +10,7 @@ const UnderMaintain = () => {
           </h1>
           <img
             className="place-self-center w-auto h-1/2"
-            src="src\assets\dev.png"
+            src="assets\dev.png"
             alt="coding pic"
           />
           <h1 className="text-left text-blue-600 text-5xl font-bold ">
@@ -30,14 +30,14 @@ const UnderMaintain = () => {
             >
               <img
                 className="w-20 h-20"
-                src="src\assets\linkedin_1384014.png"
+                src="assets\linkedin_1384014.png"
                 alt="linkedInLogo"
               />
             </a>
             <a href="https://github.com/pasanUdr" target="_blank">
               <img
                 className="w-20 h-20"
-                src="src\assets\github.png"
+                src="assets\github.png"
                 alt="githublogo"
               />
             </a>
@@ -48,7 +48,7 @@ const UnderMaintain = () => {
           <div className="flex w-auto h-1/2 m-10 justify-center">
             <img
               className="justify-center"
-              src="src\assets\my.svg"
+              src="assets\my.svg"
               alt="devImage"
             />
           </div>
