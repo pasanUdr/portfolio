@@ -38,7 +38,7 @@ const Countdown = () => {
 
   return (
     <>
-      <div className="flex flex-row justify-evenly mt-10 px-10">
+      <div className="flex flex-row justify-around mt-10 px-10">
         <div className="flex flex-col justify-around items-center bg-white w-36 h-36 rounded-2xl">
           <p>{timeLeft.days}</p>
           <p className="text-lg">Days</p>
