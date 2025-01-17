@@ -8,7 +8,7 @@ const Countdown = () => {
     minutes: 0,
     seconds: 0,
   });
-  const targetDate = new Date("2024-11-31T23:59:59").getTime();
+  const targetDate = new Date("2025-01-31T23:59:59").getTime();
   
   useEffect(() => {
     const interval = setInterval(() => {
