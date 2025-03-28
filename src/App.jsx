@@ -1,13 +1,24 @@
-import UnderMaintain from "./components/underMaintainance/UnderMaintain";
+import About from "./components/About";
+import Banner from "./components/Banner";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Services from "./components/Services";
 
 function App() {
   return (
     <>
-      <div className="flex-1">
-        <UnderMaintain />
+      <div className="bg-slate-900">
+        <Navbar/>
+        <Banner/>
+        <About/>
+        <Services/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
       </div>
 
-      {/* <h1 className="text-3xl font-bold bg-slate-400">Hello world!</h1> */}
     </>
   );
 }

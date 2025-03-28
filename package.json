@@ -5,16 +5,19 @@
   "type": "module",
   "homepage": "https://pasanUdr.github.io/portfolio/",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-scroll": "^1.9.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",

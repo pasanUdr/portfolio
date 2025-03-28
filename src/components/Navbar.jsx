@@ -42,9 +42,15 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="flex justify-between h-10vh z-50 text-white lg:py-5 px-20 py-4 bg-slate-900 ">
+      <div className="flex justify-between h-10vh z-50 text-white lg:py-5 px-20 py-4 bg-slate-900 border-b border-slate-800">
         <div className="flex items-center flex-1">
-          <span className="text-3xl font-bold">Logo</span>
+        <img
+        width={60}
+              className="justify-center"
+              src="assets\coding.png"
+              alt="devImage"
+            />
+          <span className="text-3xl font-bold">Pasan</span>
         </div>
 
         <div className="lg:flex md:flex lg: flex-1 items-center justify-end font-normal hidden">
