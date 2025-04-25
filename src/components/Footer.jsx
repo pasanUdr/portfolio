@@ -22,7 +22,7 @@ function Footer() {
             <li className="my-2">Web Developement</li>
             <li className="my-2">Mobile Developement</li>
             <li className="my-2">MERN</li>
-            <li className="my-2">Java</li>
+            <li className="my-2">Laravel</li>
           </ul>
         </div>
         <div className="mb-4 md:mb-0 ">

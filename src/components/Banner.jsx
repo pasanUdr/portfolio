@@ -24,7 +24,7 @@ const Banner = () => {
         </h1>
         <p data-aos="fade-left" className="text-lg">
           An Enthusiastic IT Undergraduate at Rajarata University of Sri Lanka. <br />
-          Passionate in Full Stack Software Development and Developer Operations. <br />
+          Passionate in Full Stack Software Development and Operations. <br />
           Exploring the Boundless world of Technology 
         </p>
 
